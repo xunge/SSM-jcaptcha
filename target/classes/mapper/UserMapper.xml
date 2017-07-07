@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<!-- 配置mapper,mybatis通过使用mapper实现dao接口 -->
+<mapper namespace="com.xunge.springemp.dao.UserDAO">
+
+    <!-- 查找用户，通过id、email、userName、phone -->
+    <select id="findByEmail" resultType="java.lang.Integer" parameterType="java.lang.String">
+        SELECT COUNT(email) FROM user WHERE email = #{email}
+    </select>
+
+    <!-- 查找用户，通过id、email、userName、phone -->
+    <select id="findByName" resultType="User" parameterType="java.lang.String">
+        SELECT email,username,password FROM USER WHERE username = #{username}
+    </select>
+
+    <!-- 新增用户 -->
+    <insert id="addUser" parameterType="com.xunge.springemp.pojo.User">
+        INSERT INTO user
+        (email,username,password)
+        VALUES
+        (#{email},#{username},#{password})
+    </insert>
+
+
+
+    <!--<select id="getAllUser" resultType="User" >
+        select * from employee
+    </select>
+
+
+
+    &lt;!&ndash; 删除用户 &ndash;&gt;
+    <delete id="deleteUser" parameterType="java.lang.String" >
+        DELETE FROM EMPLOYEE WHERE userId = #{userId}
+    </delete>
+
+    &lt;!&ndash; 解雇员工 &ndash;&gt;
+    <update id="fireUser" parameterType="java.lang.String">
+        UPDATE EMPLOYEE SET userRole=9 WHERE userId=#{userId}
+    </update>-->
+<!--
+    &lt;!&ndash; 管理员更改用户信息 &ndash;&gt;
+    <update id="updateUser" parameterType="UserCustom">
+        UPDATE EMPLOYEE SET
+        userName=#{userName},
+        grpId=(select grpId from projGroup where grpName=#{grpName}),
+        userRole=#{userRole}
+
+        WHERE userId=#{userId}
+    </update>
+
+    <update id="updateUserSelf" parameterType="User">
+        UPDATE EMPLOYEE SET
+        userName=#{userName},
+        userPwd=#{userPwd}
+
+        WHERE userId=#{userId}
+    </update>-->
+</mapper>
