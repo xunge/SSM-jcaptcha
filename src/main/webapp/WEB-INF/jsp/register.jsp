@@ -4,7 +4,7 @@
 <html>
 <head></head>
 <body>
-<title>register</title>
+<title>注册</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="css/custom.css" />
@@ -40,7 +40,7 @@
 							<div class="col-sm-6">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-									<input type="text" class="form-control input-lg input_size" id="username" name="username" placeholder="用户名" required="" />
+									<input type="text" class="form-control input-lg input_size" id="username" name="username" placeholder="请输入用户名" required="" />
 								</div>
 							</div>
 							<div id="usernameinfo" class="col-sm-6">
@@ -62,7 +62,7 @@
 							<div class="col-sm-6">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
-									<input type="password" class="form-control input-lg input_size" id="password2" name="password2" placeholder="确认密码" onpaste=" return false" onselectstart="return false" required="" />
+									<input type="password" class="form-control input-lg input_size" id="password2" name="password2" placeholder="请再次输入密码" onpaste=" return false" onselectstart="return false" required="" />
 								</div>
 							</div>
 							<div id="password2info" class="col-sm-6">
@@ -73,15 +73,15 @@
 							<div class="col-sm-4">
 								<div class="input-group">
 									<span class="input-group-addon"><i class="glyphicon glyphicon-barcode"></i></span>
-									<input type="text" class="form-control input-lg input_size input-captcha" id="captcha" name="captcha" maxlength="4" />
+									<input type="text" class="form-control input-lg input_size input-captcha" id="captcha" name="captcha" maxlength="4" placeholder="请输入验证码" />
 								</div>
 							</div>
 
-							<div>
+							<div class="col-sm-2">
 								<img class="img-captcha" src="captcha" onclick="this.src='captcha?d='+new Date().getTime()" />
 							</div>
 
-							<div id="captchainfo" class="col-sm-8">
+							<div id="captchainfo" class="col-sm-6">
 								<span class="notice"></span>
 								<span class="infoerror" style="color: #ff0000"></span>
 							</div>

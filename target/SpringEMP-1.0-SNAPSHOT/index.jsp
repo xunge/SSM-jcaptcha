@@ -16,9 +16,9 @@
     <p style="text-indent:0em;margin-top:20px;font-size:16px">
         使用SSM(Spring, Spring MVC, MyBatis)建立一个简单的框架，并实现简单的登录注册功能。<br/>
         其中，注册页面使用jcaptcha实现了验证码功能，并使用AJAX技术实时验证。<br/>
-        注册页面的邮箱输入完成，光标移开输入框后，使用AJAX技术到后台数据库进行查找，如果已经注册过则提示盖邮箱已被注册。<br/>
+        注册页面的邮箱输入完成，光标移开输入框后，使用AJAX技术到后台数据库进行查找，如果已经注册过则提示盖邮箱已被注册。<br/><br/><br/>
         <a href="register.do">注册</a> <br/>
-        <a href="login.do">登录</a>；
+        <a href="login.do">登录</a><br/>
     </p>
     <br />
 </div>
