@@ -3,7 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
-<title>login</title>
+<title>登录</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 <link rel="stylesheet" type="text/css" href="css/custom.css" />
@@ -17,8 +17,8 @@
 		<div id="top_content">
 			  <p>&nbsp;</p><p>&nbsp;</p>
 			  <div class="col-sm-12">
-			    <p class="text-center blog_title" style="text-indent:0em;">敏捷测试论坛</p>
-			    <p class="text-center blog_subtitle" style="text-indent:0em;margin-top:10px">和你一起进步</p>
+			    <p class="text-center blog_title" style="text-indent:0em;">xunge论坛</p>
+			    <p class="text-center blog_subtitle" style="text-indent:0em;margin-top:10px">登录界面</p>
 			    <h4 class="text-center sub_title">
 			      <span>
 			        <a class="active" href="login.do">登录</a>
@@ -42,16 +42,6 @@
 					<p>
 						<input type="submit" class="btn btn-info btn-lg btn-block bottom-space" value="登录" />
 					</p>
-					<div class="row">
-	                   <div class="col-sm-6">
-	                   <p class="text-left" style="text-indent:0em">
-	                       <input type="checkbox" value="" checked>记住我
-	                   </p></div>
-	                   <div class="col-sm-6">
-	                   <p class="text-right">
-	                     <a href="lostpassword.do" style="color:rgb(51,51,51)">忘记密码？</a>
-	                   </p></div>
-	                </div>
 				</form>
 			</div>
 		</div>

@@ -3,10 +3,18 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd"
        default-lazy-init="true">
 
-    <bean id="captchaService" class="com.octo.captcha.service.multitype.GenericManageableCaptchaService">
+    <!--<bean id="captchaService" class="com.octo.captcha.service.multitype.GenericManageableCaptchaService">
         <constructor-arg index="0" ref="imageEngine"/>
         <constructor-arg type="int" index="1" value="180"/>
         <constructor-arg type="int" index="2" value="100000"/>
+    </bean>-->
+    <bean id="captchaService" class="com.xunge.springemp.service.impl.CustomGenericManageableCaptchaService">
+        <constructor-arg index="0"><ref bean="imageEngine"/></constructor-arg>
+        <constructor-arg index="1"><value>180</value></constructor-arg>
+        <constructor-arg index="2"><value>180000</value></constructor-arg>
+<!--
+        <constructor-arg index="3"><value>75000</value></constructor-arg>
+-->
     </bean>
     <bean id="imageEngine" class="com.octo.captcha.engine.GenericCaptchaEngine">
         <constructor-arg index="0">

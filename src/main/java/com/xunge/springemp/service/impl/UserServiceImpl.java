@@ -38,4 +38,14 @@ public class UserServiceImpl implements IUserService{
             return 1;
         }
     }
+
+    @Override
+    public int checkUserExist(String user) throws Exception {
+        int count = userDAO.findByUser(user);
+        if(count == 0) {
+            return 0;
+        } else {
+            return 1;
+        }
+    }
 }

@@ -2,10 +2,104 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56651cb2-351b-431a-b00b-007583609c84" name="Default" comment="haha">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/xunge/springemp/service/impl/CustomGenericManageableCaptchaService.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/SpringEMP_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/lib/jconsole.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/lib/tools.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/classes/com/xunge/springemp/controller/JcaptchaImageCreater.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/classes/com/xunge/springemp/controller/LoginController.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/classes/com/xunge/springemp/dao/UserDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/classes/com/xunge/springemp/pojo/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/classes/com/xunge/springemp/service/IUserService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/classes/com/xunge/springemp/service/impl/UserServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/classes/db.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/classes/log4j.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/classes/mapper/UserMapper.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/classes/mybatis/mybatisConfig.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-captcha.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-dao.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-mvc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/classes/spring/spring-service.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/jsp/login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/jsp/personal.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/jsp/register.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/aspectjweaver-1.8.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/c3p0-0.9.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/commons-collections-3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/commons-io-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/druid-1.0.18.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.5.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.5.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.5.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/jcaptcha-all-1.0-RC6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/jstl.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.34.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-4.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-4.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-4.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.1.4.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/lib/standard.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/css/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/js/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/js/jquery.validate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/SpringEMP-1.0-SNAPSHOT/js/regvalidate.js" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/artifacts/SpringEMP_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/SSM_jcaptcha_war_exploded.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SpringEMP.iml" afterPath="$PROJECT_DIR$/SSM-jcaptcha.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/classes/com/xunge/springemp/controller/LoginController.class" afterPath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/classes/com/xunge/springemp/controller/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/classes/com/xunge/springemp/dao/UserDAO.class" afterPath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/classes/com/xunge/springemp/dao/UserDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/classes/com/xunge/springemp/service/IUserService.class" afterPath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/classes/com/xunge/springemp/service/IUserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/classes/com/xunge/springemp/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/classes/com/xunge/springemp/service/impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/xunge/springemp/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/xunge/springemp/controller/LoginController.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/xunge/springemp/dao/UserDAO.class" afterPath="$PROJECT_DIR$/target/classes/com/xunge/springemp/dao/UserDAO.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/xunge/springemp/service/IUserService.class" afterPath="$PROJECT_DIR$/target/classes/com/xunge/springemp/service/IUserService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/xunge/springemp/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/xunge/springemp/service/impl/UserServiceImpl.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/personal.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/personal.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/classes/db.properties" afterPath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/classes/db.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/classes/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/jsp/login.jsp" afterPath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/jsp/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/jsp/personal.jsp" afterPath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/jsp/personal.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/jsp/register.jsp" afterPath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/jsp/register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/css/custom.css" afterPath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/index.jsp" afterPath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/js/regvalidate.js" afterPath="$PROJECT_DIR$/out/artifacts/SpringEMP_war_exploded/js/regvalidate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/xunge/springemp/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/xunge/springemp/controller/LoginController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/xunge/springemp/dao/UserDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/xunge/springemp/dao/UserDAO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/xunge/springemp/service/IUserService.java" afterPath="$PROJECT_DIR$/src/main/java/com/xunge/springemp/service/IUserService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/xunge/springemp/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/xunge/springemp/service/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-captcha.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-captcha.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/regvalidate.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/regvalidate.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/spring-captcha.xml" afterPath="$PROJECT_DIR$/target/classes/spring/spring-captcha.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,11 +119,9 @@
       <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-              <folding>
-                <element signature="n#style#0;n#span#1;n#div#2;n#div#4;n#fieldset#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="-510">
+              <caret line="47" column="54" lean-forward="false" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="54" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -37,8 +129,73 @@
       <file leaf-file-name="JcaptchaImageCreater.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xunge/springemp/controller/JcaptchaImageCreater.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="-353">
               <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IUserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xunge/springemp/service/IUserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="regvalidate.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/regvalidate.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-628">
+              <caret line="115" column="14" lean-forward="false" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
+              <folding>
+                <marker date="1499651090467" expanded="true" signature="1883:6291" ph="{&quot;errorElement&quot;: &quot;span&quot;...}" />
+                <marker date="1499651090467" expanded="true" signature="3673:4470" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-captcha.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-captcha.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomGenericManageableCaptchaService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xunge/springemp/service/impl/CustomGenericManageableCaptchaService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-833">
+              <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xunge/springemp/service/impl/UserServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -47,24 +204,14 @@
       <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xunge/springemp/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-130">
-              <caret line="76" column="51" lean-forward="true" selection-start-line="76" selection-start-column="51" selection-end-line="76" selection-end-column="51" />
+            <state relative-caret-position="2730">
+              <caret line="107" column="9" lean-forward="false" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="personal.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="personal.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/personal.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
@@ -88,6 +235,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>alert</find>
+      <find>usernameinfo</find>
+      <find>highlight</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -112,8 +261,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring/spring-service.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xunge/springemp/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/image.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/xunge/springemp/util/RandomValidateCode.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xunge/springemp/controller/ImageGenController.java" />
@@ -125,14 +272,18 @@
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/custom.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xunge/springemp/service/impl/UserServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xunge/springemp/service/IUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xunge/springemp/controller/LoginController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/regvalidate.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/personal.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xunge/springemp/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xunge/springemp/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xunge/springemp/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/regvalidate.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xunge/springemp/service/impl/GenericManageableCaptchaService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-captcha.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xunge/springemp/controller/LoginController.java" />
       </list>
     </option>
   </component>
@@ -206,7 +357,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
@@ -238,8 +388,26 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="SSM-jcaptcha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM-jcaptcha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -261,11 +429,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM-jcaptcha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM-jcaptcha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mybatis" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -287,15 +481,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
+              <option name="myItemId" value="mapper" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -314,6 +504,52 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springemp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM-jcaptcha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SSM-jcaptcha" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springemp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -375,6 +611,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -402,7 +639,7 @@
       <recent name="C:\Users\xunge\Desktop\GIT\SSM-\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.tomcat_springemp">
+  <component name="RunManager" selected="Tomcat Server.tomcat">
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings />
@@ -794,13 +1031,12 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="tomcat_springemp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.15" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/spring/" />
+    <configuration default="false" name="tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.15" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="SpringEMP:war exploded">
+        <artifact name="SSM-jcaptcha:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/spring" />
+            <option name="CONTEXT_PATH" value="/ssm" />
           </settings>
         </artifact>
       </deployment>
@@ -863,13 +1099,12 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="SpringEMP:war exploded" />
-          <artifact name="SpringEMP:war exploded" />
+          <artifact name="SSM-jcaptcha:war exploded" />
         </option>
       </method>
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat_springemp" />
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -890,15 +1125,17 @@
       <workItem from="1499245871686" duration="5348000" />
       <workItem from="1499342550477" duration="16002000" />
       <workItem from="1499428762569" duration="1264000" />
-      <workItem from="1499590473872" duration="1338000" />
+      <workItem from="1499590473872" duration="4383000" />
+      <workItem from="1499608639959" duration="3397000" />
+      <workItem from="1499648440186" duration="5771000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39871000" />
+    <option name="totallyTimeSpent" value="52084000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-12" y="-12" width="2584" height="1554" extended-state="7" />
+    <frame x="-12" y="-12" width="2584" height="1554" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -920,11 +1157,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35588008" sideWeight="0.49839488" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35588008" sideWeight="0.49839488" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18739969" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19221509" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -955,23 +1192,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" lean-forward="false" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#4;n#fieldset#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1106,7 +1326,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1114,7 +1333,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="34" lean-forward="false" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1129,27 +1347,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
           <caret line="18" column="37" lean-forward="true" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-          <folding>
-            <element signature="e#1002#1018#0" expanded="false" />
-            <element signature="e#1055#1068#0" expanded="false" />
-            <element signature="e#1102#1116#0" expanded="false" />
-            <element signature="e#1154#1172#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xunge/springemp/dao/UserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1172,14 +1369,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-captcha.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="62" lean-forward="false" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -1187,42 +1376,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="577">
           <caret line="324" column="1" lean-forward="false" selection-start-line="324" selection-start-column="1" selection-end-line="324" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xunge/springemp/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xunge/springemp/service/IUserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/regvalidate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3570">
-          <caret line="119" column="7" lean-forward="false" selection-start-line="119" selection-start-column="7" selection-end-line="119" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1234,37 +1391,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xunge/springemp/controller/JcaptchaImageCreater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xunge/springemp/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-130">
-          <caret line="76" column="51" lean-forward="true" selection-start-line="76" selection-start-column="51" selection-end-line="76" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="6" column="9" lean-forward="false" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
-          <folding>
-            <element signature="n#style#0;n#span#1;n#div#2;n#div#4;n#fieldset#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="5" column="9" lean-forward="false" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xunge/springemp/dao/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="37" lean-forward="false" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="69" lean-forward="false" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+          <folding>
+            <marker date="1499595008235" expanded="true" signature="393:445" ph="SELECT COUNT... user" />
+            <marker date="1499595008235" expanded="true" signature="562:623" ph="SELECT COUNT... user" />
+            <marker date="1499595008235" expanded="true" signature="771:840" ph="SELECT email... USER" />
+            <marker date="1499595008235" expanded="true" signature="954:1062" ph="INSERT INTO user... " />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1276,13 +1428,98 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510">
+          <caret line="47" column="54" lean-forward="false" selection-start-line="47" selection-start-column="45" selection-end-line="47" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/regvalidate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-628">
+          <caret line="115" column="14" lean-forward="false" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
+          <folding>
+            <marker date="1499651090467" expanded="true" signature="1883:6291" ph="{&quot;errorElement&quot;: &quot;span&quot;...}" />
+            <marker date="1499651090467" expanded="true" signature="3673:4470" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/octo/captcha/jcaptcha-all/1.0-RC6/jcaptcha-all-1.0-RC6.jar!/com/octo/captcha/service/image/ImageCaptchaService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xunge/springemp/controller/JcaptchaImageCreater.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-353">
+          <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xunge/springemp/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2730">
+          <caret line="107" column="9" lean-forward="false" selection-start-line="107" selection-start-column="9" selection-end-line="107" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xunge/springemp/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xunge/springemp/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="18" column="15" lean-forward="false" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xunge/springemp/service/impl/CustomGenericManageableCaptchaService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-833">
+          <caret line="15" column="14" lean-forward="false" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-captcha.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="39" lean-forward="false" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>SpringEMP:war exploded</last-edited>
+          <last-edited>SSM-jcaptcha:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1330,7 +1567,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>SpringEMP</last-edited>
+          <last-edited>SSM-jcaptcha</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

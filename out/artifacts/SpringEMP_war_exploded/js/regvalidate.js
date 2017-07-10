@@ -1,54 +1,4 @@
 $(document).ready(function() {
-	
-	$("input").change(function() {
-	    //设置发送ajax请求的部分参数
-	    var ajaxType = "GET";
-	    var url = null;
-	    var data = null;
-
-	    //获取选中元素的id
-	    var id = $(this).attr("id");
-
-	    //移除提示信息的元素
-	    $(this).nextAll("span").remove();
-
-	    //判断选中元素的id
-	    if (id == "email") {
-	        //设置发送请求的ajax参数
-	        url = "check.do";
-	        data = {
-	            "email": $(this).val()
-	        };
-
-	        //发送ajax请求
-	        $.ajax({
-	            type: ajaxType,
-	            url: url,
-	            data: data,
-	            contentType: "application/json;charset=utf-8",
-	            success: function(result) {
-	                //如果当前的是登录
-	                if (result == 1) {
-	                	$(".infoerror").text("该邮箱已被注册！！");
-	                	$("#email").parents(".input-group").addClass("has-error").removeClass("has-success");
-	                    $("#email").select();
-	                    $("#username").attr("readOnly","true");
-	                    $("#password").attr("readOnly","true");
-	                    $("#password2").attr("readOnly","true");
-	                } else {
-	                	$(".infoerror").empty();
-	                	$("#email").parents(".input-group").addClass("has-success").removeClass("has-error");
-	                    $("#email").select();
-	                    $("#username").removeAttr("readOnly");
-	                    $("#password").removeAttr("readOnly");
-	                    $("#password2").removeAttr("readOnly");
-	                }
-	            }
-	        
-	        });
-	    }
-	});
-
     $("#email").click(function() {
         var $email = $("#email"),
         emailVal = $.trim($email.val());
@@ -67,7 +17,6 @@ $(document).ready(function() {
             $("#usernameinfo .notice").empty();
         }
     }),
-
     $("#password").click(function() {
         var $password = $("#password"),
         passwordVal = $.trim($password.val());
@@ -86,6 +35,16 @@ $(document).ready(function() {
             $("#password2info .notice").empty();
         }
     }),
+    $("#captcha").click(function() {
+        var $captcha = $("#captcha"),
+            captchaVal = $.trim($captcha.val());
+        if (captchaVal.length == 0) {
+            $("#captchainfo .notice").text("请输入图片中的验证码");
+        } else {
+            $("#captchainfo .notice").empty();
+        }
+    }),
+
     $("#email,#username,#password,#password2").change(function() {
         $("#emailinfo .notice").empty();
         $("#usernameinfo .notice").empty();
@@ -95,6 +54,25 @@ $(document).ready(function() {
 
     $("#regform").validate({
         rules: {
+            email: {
+                required: true,
+                email: true,
+                remote: {
+                    url:"checkEmail.do",
+                    type:"get",
+                    contentType: "application/json;charset=utf-8",
+                    //dataType:"html",
+                    data:{
+                        email:function(){return $("#email").val();}
+                    },
+                    dataFilter: function(data, type) {
+                        if (data == 1)
+                            return false;
+                        else
+                            return true;
+                    }
+                }
+            },
             username: {
                 required: true,
                 minlength: 3,
@@ -111,13 +89,31 @@ $(document).ready(function() {
                 maxlength: 16,
                 equalTo: "#password"
             },
-            email: {
+            captcha: {
                 required: true,
-                email: true
-            },
-            agree1: "required"
+                remote: {
+                    url:"checkCaptcha.do",
+                    type:"get",
+                    contentType: "application/json;charset=utf-8",
+                    //dataType:"html",
+                    data:{
+                        captcha:function(){return $("#captcha").val();}
+                    },
+                    dataFilter: function(data, type) {
+                        if (data == 0)
+                            return false;
+                        else
+                            return true;
+                    }
+                }
+            }
         },
         messages: {
+            email: {
+                required: "请输入一个有效的邮箱地址",
+                email: "请输入一个有效的邮箱地址",
+                remote: "该邮箱已被注册"
+            },
             username: {
                 required: "请输入一个3-20位的用户名",
                 minlength: "用户名至少包含3位字符",
@@ -134,8 +130,10 @@ $(document).ready(function() {
                 maxlength: "密码不得超过16位字符",
                 equalTo: "两次密码输入不一致"
             },
-            email: "请输入一个有效的邮箱地址",
-            agree1: "请勾选遵守用户协议和隐私政策"
+            captcha: {
+                required: "请输入验证码",
+                remote: "验证码错误"
+            }
         },
         errorElement: "span",
         errorPlacement: function(error, element) {

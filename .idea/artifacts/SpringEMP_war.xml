@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="SpringEMP:war">
-    <output-path>$PROJECT_DIR$/target</output-path>
-    <root id="archive" name="SpringEMP-1.0-SNAPSHOT.war">
-      <element id="artifact" artifact-name="SpringEMP:war exploded" />
-    </root>
-  </artifact>
-</component>

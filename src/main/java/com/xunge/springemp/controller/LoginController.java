@@ -5,6 +5,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 import com.octo.captcha.service.image.ImageCaptchaService;
+import com.xunge.springemp.service.impl.CustomGenericManageableCaptchaService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -27,6 +28,9 @@ public class LoginController {
 
 	@Autowired
 	private ImageCaptchaService imageCaptchaService;
+
+	@Autowired
+	private CustomGenericManageableCaptchaService customGenericManageableCaptchaService;
 	
 	@Autowired
 	private UserDAO userDAO;
@@ -49,12 +53,11 @@ public class LoginController {
 
 		Boolean isResponseCorrect = imageCaptchaService.validateResponseForID(request.getSession().getId(), captcha);
 		if (isResponseCorrect) {
-			//System.out.println("yessssssssssssssssssssssssssssss");
 			userDAO.addUser(user);
+			customGenericManageableCaptchaService.removeCaptcha(request.getSession().getId());
 			ModelAndView mv = new ModelAndView("personal");
 			return mv;
 		} else {
-			//System.out.println("NOOOOOOOOOOOOOOOOOOOOOOOOOOO");
 			ModelAndView mv = new ModelAndView("register");
 			return mv;
 		}
@@ -89,12 +92,19 @@ public class LoginController {
 		return userService.checkEmailExist(email);
 	}
 
-	@RequestMapping("/checkCaptcha")
-	public @ResponseBody boolean checkCaptcha(String captcha, HttpServletRequest request) throws Exception {
-		Boolean isResponseCorrect = imageCaptchaService.validateResponseForID(request.getSession().getId(), captcha);
-		System.out.println(isResponseCorrect+"************************************");
-		return isResponseCorrect;
+	@RequestMapping("/checkUser")
+	public @ResponseBody int checkUser(String user) throws Exception {
+		return userService.checkUserExist(user);
 	}
 
+	@RequestMapping("/checkCaptcha")
+	public @ResponseBody int checkCaptcha(String captcha, HttpServletRequest request) throws Exception {
+		Boolean isResponseCorrect = imageCaptchaService.validateResponseForID(request.getSession().getId(), captcha);
 
+		if (isResponseCorrect == false) {
+			return 0;
+		} else {
+			return 1;
+		}
+	}
 }
