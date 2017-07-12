@@ -93,8 +93,9 @@ public class LoginController {
 	}
 
 	@RequestMapping("/checkUser")
-	public @ResponseBody int checkUser(String user) throws Exception {
-		return userService.checkUserExist(user);
+	public @ResponseBody int checkUser(String username) throws Exception {
+		System.out.println(username+"*******************************");
+		return userService.checkUserExist(username);
 	}
 
 	@RequestMapping("/checkCaptcha")

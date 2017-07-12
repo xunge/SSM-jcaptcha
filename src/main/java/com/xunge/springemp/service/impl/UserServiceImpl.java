@@ -19,7 +19,6 @@ public class UserServiceImpl implements IUserService{
     private UserDAO userDAO;
 
     public boolean login(String username, String password) throws Exception {
-        //System.out.println("username in UserServiceImpl = "+username);
         User user = userDAO.findByName(username);
         if(user == null) {
             return false;
@@ -39,7 +38,6 @@ public class UserServiceImpl implements IUserService{
         }
     }
 
-    @Override
     public int checkUserExist(String user) throws Exception {
         int count = userDAO.findByUser(user);
         if(count == 0) {

@@ -45,7 +45,6 @@
 							</div>
 							<div id="usernameinfo" class="col-sm-6">
 								<span class="notice"></span>
-								<span class="infoerror" style="color: #ff0000"></span>
 							</div>
 						</div>
 						<div class="row">
@@ -84,7 +83,6 @@
 
 							<div id="captchainfo" class="col-sm-6">
 								<span class="notice"></span>
-								<span class="infoerror" style="color: #ff0000"></span>
 							</div>
 						</div>
 						<div class="row">

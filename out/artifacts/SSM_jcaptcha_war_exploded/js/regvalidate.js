@@ -61,7 +61,6 @@ $(document).ready(function() {
                     url:"checkEmail.do",
                     type:"get",
                     contentType: "application/json;charset=utf-8",
-                    //dataType:"html",
                     data:{
                         email:function(){return $("#email").val();}
                     },
@@ -76,7 +75,21 @@ $(document).ready(function() {
             username: {
                 required: true,
                 minlength: 3,
-                maxlength: 20
+                maxlength: 20,
+                remote: {
+                    url:"checkUser.do",
+                    type:"get",
+                    contentType: "application/json;charset=utf-8",
+                    data:{
+                        username:function(){return $("#username").val();}
+                    },
+                    dataFilter: function(data, type) {
+                        if (data == 1)
+                            return false;
+                        else
+                            return true;
+                    }
+                }
             },
             password: {
                 required: true,
@@ -95,7 +108,6 @@ $(document).ready(function() {
                     url:"checkCaptcha.do",
                     type:"get",
                     contentType: "application/json;charset=utf-8",
-                    //dataType:"html",
                     data:{
                         captcha:function(){return $("#captcha").val();}
                     },
@@ -117,7 +129,8 @@ $(document).ready(function() {
             username: {
                 required: "请输入一个3-20位的用户名",
                 minlength: "用户名至少包含3位字符",
-                maxlength: "用户名不得超过20位字符"
+                maxlength: "用户名不得超过20位字符",
+                remote: "该用户已被占用"
             },
             password: {
                 required: "请输入一个有效的密码",
